@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 # OS X
 .DS_Store
 
-# Xcode
-=======
 # Xcode
 #
 build/
@@ -31,6 +28,8 @@ Pods/
 Podfile.lock
 *.xcuserstate
 Carthage/Build
+
+.*.sw*
 
 # CocoaPods
 #
