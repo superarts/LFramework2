@@ -22,7 +22,7 @@ pod "LFramework2"
 
 ## Author
 
-Leo, superartstudio@gmail.com
+Leo, www.superarts.org
 
 ## License
 
