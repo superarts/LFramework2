@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "LFramework2"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of LFramework2."
+  s.version          = "2.0.0"
+  s.summary          = "Swift version of LFramework."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  LFramework2 is based on swift. It is still in progress.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LFramework2"
+  s.homepage         = "https://github.com/superarts/LFramework"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Leo" => "superartstudio@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LFramework2.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Leo" => "leo@superarts.org" }
+  s.source           = { :git => "https://github.com/superarts/LFramework.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/superarts_org'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
